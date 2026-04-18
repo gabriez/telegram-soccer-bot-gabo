@@ -1,0 +1,18 @@
+[project]
+name = "telegram-soccer-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "pydantic>=2.13.2",
+    "python-telegram-bot>=22.7",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.3.1",
+    "pytest>=9.0.3",
+    "ruff>=0.15.11",
+]
