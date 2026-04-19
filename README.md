@@ -1,0 +1,1 @@
+Run it using `uv run --env-file .env main.py`
